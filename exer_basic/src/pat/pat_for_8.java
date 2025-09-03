@@ -92,6 +92,18 @@ public class pat_for_8
         }
         System.out.println("------------------------------------------------------------------");
         System.out.println("7-pattern");
+        for(i=0;i<n;i++)
+        {
+            for(j=0;j<i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(k=n;k>i;k--)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
     }
 }
