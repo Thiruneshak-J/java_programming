@@ -100,10 +100,39 @@ public class pat_for_8
             }
             for(k=n;k>i;k--)
             {
-                System.out.print("*");
+                System.out.print(" *");
             }
             System.out.println();
         }
+        System.out.println("------------------------------------------------------------------");
+        System.out.println("7 (1)-pattern");
+        for(i=0;i<n;i++)
+        {
+            for(j=i;j<n;j++)
+            {
+                System.out.print(" ");
+            }
+            for(k=0;k<=i;k++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println("------------------------------------------------------------------");
+        System.out.println("8-pattern");
+        for(i=1;i<=n;i++)
+        {
+            for(j=i;j<n;j++)
+            {
+                System.out.print(" ");
+            }
+            for(k=1;k<=(2*i-1);k++)
+            {
+                    System.out.print("*");
+            }
+            System.out.println();
+        }
+
 
     }
 }
