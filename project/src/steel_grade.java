@@ -11,7 +11,7 @@ public class steel_grade
             h = sc.nextInt();
             if (h > 999 || h < 1)
             {
-                System.out.println("invaild enter between 1 to 999");
+                System.out.println("invalid enter between 1 to 999");
             }
             else
             {
@@ -24,7 +24,7 @@ public class steel_grade
             c = sc.nextFloat();
             if(c>1)
             {
-                System.out.println("invaild number.enter decimal");
+                System.out.println("invalid number.enter decimal");
             }
             else
             {
@@ -48,7 +48,7 @@ public class steel_grade
         }
         else if(h>50 && t>5600)
         {
-           System.out.println("steel grade is 7");
+           System.out.println("steel grade 7");
         }
         else if(h>50 || c<0.7 || t>5600)
         {
@@ -56,7 +56,7 @@ public class steel_grade
         }
         else
         {
-            System.out.println("Steel grade is 5");
+            System.out.println("Steel grade  5");
         }
     }
 }
