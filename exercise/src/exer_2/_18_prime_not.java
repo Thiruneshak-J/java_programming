@@ -10,7 +10,7 @@ public class _18_prime_not
         int a,b,temp=0;
         System.out.print("enter the number A:");
         a=sc.nextInt();
-        /*System.out.print("enter the number B:");
+        /*System.out.sample.print("enter the number B:");
         b=sc.nextInt();*/
         int i;
         for(i=1;i<=a;i++)
